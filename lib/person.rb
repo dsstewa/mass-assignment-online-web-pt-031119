@@ -14,7 +14,7 @@ class Person
       binding.pry
     end
   end
-  binding.pry
+  #binding.pry
 end
 
 
