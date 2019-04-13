@@ -7,12 +7,13 @@ class Person
 
   def initialize(person)
     person.each do |key,value|
-       binding.pry
+       #binding.pry
        self.send("@#{key}=", value)
       # name: "Avi"
       # @name = "Avi"    
     end
   end
+  binding.pry
 end
 
 
