@@ -10,7 +10,8 @@ class Person
        #binding.pry
        self.send("@#{key}=", value)
       # name: "Avi"
-      # @name = "Avi"    
+      # @name = "Avi" 
+      
     end
   end
   binding.pry
