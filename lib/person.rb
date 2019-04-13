@@ -7,6 +7,7 @@ class Person
 
   def initialize(person)
     person.each do |key,value|
+       binding.pry
        self.send("#{key}=", value)
        
     
