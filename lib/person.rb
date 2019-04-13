@@ -9,8 +9,8 @@ class Person
     person.each do |key,value|
        binding.pry
        self.send("#{key}=", value)
-       
-    
+       name: "Avi"
+       @name = "Avi"    
     end
   end
   
