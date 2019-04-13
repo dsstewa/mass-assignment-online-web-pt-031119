@@ -11,7 +11,7 @@ class Person
        self.send("@#{key}=", value)
       # name: "Avi"
       # @name = "Avi" 
-      
+      binding.pry
     end
   end
   binding.pry
